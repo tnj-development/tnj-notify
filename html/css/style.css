@@ -1,0 +1,44 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    margin:6px;
+    text-align:center;
+    font: caption;
+    padding:8px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius:3px;
+    font-weight:bold;
+    font-size:12px;
+    display:inline-block;
+}
+  
+
+.success {
+    background: rgba(21, 100, 15, 0.95);
+    color: #fff;
+}
+
+.primary {
+    background-color: rgba(44, 63, 80, 0.85);
+    color: #ffffff;
+}
+
+.error {
+    background: rgba(181, 82, 85, 0.85);
+    color: #fff;
+}
