@@ -7,3 +7,5 @@ function QBCore.Functions.Notify(text, texttype, length)
     exports['tnj-notify']:Notify(text, texttype, length)
 end
 ```
+
+https://discord.gg/GUhYGu999z
