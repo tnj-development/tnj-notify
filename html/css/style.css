@@ -17,7 +17,7 @@ body {
 
 .notification {
     margin:6px;
-    text-align:center;
+    /* text-align:center; */
     font: caption;
     padding:8px;
     border: 2px solid rgba(0, 0, 0, 0.1);
